@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RootNamespace>TopTL</RootNamespace>
+    <PackageId>TopTL</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>TOP.TL</Authors>
+    <Description>C# SDK for the TOP.TL Telegram Directory API</Description>
+    <PackageProjectUrl>https://top.tl</PackageProjectUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageTags>telegram;top.tl;bot;directory</PackageTags>
+    <RepositoryUrl>https://github.com/AnotherGenZ/toptl-csharp</RepositoryUrl>
+  </PropertyGroup>
+
+</Project>
