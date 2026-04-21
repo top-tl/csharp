@@ -1,18 +1,32 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net6.0</TargetFramework>
+    <TargetFrameworks>net8.0;net6.0</TargetFrameworks>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <LangVersion>latest</LangVersion>
     <RootNamespace>TopTL</RootNamespace>
     <PackageId>TopTL</PackageId>
-    <Version>1.0.0</Version>
+    <Version>0.1.0</Version>
     <Authors>TOP.TL</Authors>
-    <Description>C# SDK for the TOP.TL Telegram Directory API</Description>
+    <Company>TOP.TL</Company>
+    <Description>Official C# SDK for the TOP.TL Telegram Directory API — post stats, check votes, and manage vote webhooks for your Telegram bot, channel, or group listed on top.tl.</Description>
     <PackageProjectUrl>https://top.tl</PackageProjectUrl>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <PackageTags>telegram;top.tl;bot;directory</PackageTags>
-    <RepositoryUrl>https://github.com/AnotherGenZ/toptl-csharp</RepositoryUrl>
+    <PackageTags>telegram;toptl;bot;directory;sdk</PackageTags>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/top-tl/csharp</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <NoWarn>$(NoWarn);1591</NoWarn>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="README.md" Pack="true" PackagePath="\" />
+    <None Include="LICENSE" Pack="true" PackagePath="\" />
+  </ItemGroup>
 
 </Project>
